@@ -13,6 +13,6 @@ We are going to create an Item interface representing food items such as burgers
 
 We then create a Meal class having ArrayList of Item and a MealBuilder to build different types of Meal objects by combining Item. BuilderPatternDemo, our demo class will use MealBuilder to build a Meal.
 
-// ![](http://i57.tinypic.com/34zy537.jpg)
+![](http://i61.tinypic.com/im8g1g.jpg)
 
 Copyright Dennis Anderson 2015
