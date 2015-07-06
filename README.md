@@ -1,17 +1,16 @@
-# TemplatePattern
-Example of the Template Pattern
+# Composite Pattern
+Example of the Composite Pattern
 
-In Template pattern, an abstract class exposes defined way(s)/template(s) to execute its methods. 
-Its subclasses can override the method implementation as per need but the invocation is to be in the same way as 
-defined by an abstract class. This pattern comes under behavior pattern category.
+Composite pattern is used where we need to treat a group of objects in similar way as a single object. Composite pattern composes objects in term of a tree structure to represent part as well as whole hierarchy. This type of design pattern comes under structural pattern as this pattern creates a tree structure of group of objects.
+
+This pattern creates a class that contains group of its own objects. This class provides ways to modify its group of same objects.
+
+We are demonstrating use of composite pattern via following example in which we will show employees hierarchy of an organization.
 
 Implementation
 ---------------
-We are going to create a Tree abstract class defining operations with a template method set to be 
-final so that it cannot be overridden. ChristmasTree and OutsideTree are concrete classes that extend Tree and override its methods.
+We have a class Employee which acts as composite pattern actor class. Client, our demo class will use Employee class to add department level hierarchy and print all employees.
 
-Our Client class, will use Tree to demonstrate use of template pattern.
-
-![](http://i61.tinypic.com/5jtevq.jpg)
+![](http://i57.tinypic.com/34zy537.jpg)
 
 Copyright Dennis Anderson 2015
